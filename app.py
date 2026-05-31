@@ -1,6 +1,3 @@
-Zde je kompletně upravený kód. Ponechal jsem tvou původní funkci `generate_tinder_image`, upravil jsem cestu k cache pro lepší stabilitu na mobilu, nastavil `show_dialog=False` pro rychlejší proces a integroval jsem přesný seznam tvých tracků.
-
-```python
 import streamlit as st
 import math
 import os
@@ -143,5 +140,3 @@ if st.button("Vytvořit vše"):
             st.markdown(f"### [👉 Otevřít playlist na Spotify]({playlist['external_urls']['spotify']})")
     else:
         st.warning("Zadej prosím text.")
-
-```
